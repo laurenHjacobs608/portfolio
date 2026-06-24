@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import profileImg from "../assets/portfolio-profile.JPG";
  
 export default function Home() {
@@ -18,11 +19,10 @@ export default function Home() {
           Digital Media student at UCF — designing thoughtful experiences, one project at a time.
         </p>
         <div className="hero-ctas">
-          <a href="/projects" className="btn-primary">See My Work</a>
-          <a href="/contact" className="btn-secondary">Get In Touch</a>
+          <Link to="/projects" className="btn-primary">See My Work</Link>
+          <Link to="/contact" className="btn-secondary">Get In Touch</Link>
         </div>
       </motion.div>
     </div>
   );
 }
- 
