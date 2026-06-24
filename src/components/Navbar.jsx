@@ -1,15 +1,20 @@
-import { Link } from "react-router-dom";
-
+import { Link, useLocation } from "react-router-dom";
+ 
 export default function Navbar() {
+  const { pathname } = useLocation();
+ 
   return (
     <nav className="navbar">
-      <h2 className="logo">🌈 My Portfolio</h2>
-
+      <Link to="/" className="logo">Lauren Jacobs</Link>
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        {["/", "/about", "/projects", "/contact"].map((path) => {
+          const label = path === "/" ? "Home" : path.slice(1).charAt(0).toUpperCase() + path.slice(2);
+          return (
+            <Link key={path} to={path} className={pathname === path ? "nav-link active" : "nav-link"}>
+              {label}
+            </Link>
+          );
+        })}
       </div>
     </nav>
   );
