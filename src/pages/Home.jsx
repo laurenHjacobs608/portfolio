@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import profileImg from "../assets/home-portfolio.jpg";
+import profileImg from "../assets/home-portfolio.JPG";
  
 export default function Home() {
   return (
