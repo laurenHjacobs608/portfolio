@@ -11,9 +11,9 @@ export default function About() {
         <div className="about-intro">
           <h2>About Me</h2>
           <p>
-            I'm a student at the University of Central Florida pursuing a
-            Bachelor's Degree in Digital Media. I love blending creativity
-            with code to build things people enjoy using.
+           Hi, I’m Lauren! I’m a Digital Media student at UCF specializing in 
+           Web and Interactive Media. I’m passionate about UX/UI, visual design, 
+           and creating digital experiences that are both engaging and user-friendly.
           </p>
         </div>
       </div>
