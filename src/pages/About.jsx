@@ -1,4 +1,4 @@
-import weddingImg from "../assets/wedding.JPG";
+import weddingImg from "../assets/about-portfolio.JPG";
  
 const skills = ["React", "JavaScript", "HTML/CSS", "UI Design", "Figma"];
 const interests = ["Reading", "Painting", "Pottery"];
