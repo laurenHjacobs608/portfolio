@@ -61,7 +61,7 @@ export default function Contact() {
         <p>Find me on</p>
         <div className="social-links">
           <a href="https://www.instagram.com/laurenjacobs608/" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="https://www.linkedin.com/in/laurenhjacobs608" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="www.linkedin.com/in/lauren-jacobs-9aa0b4242" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="https://github.com/laurenHjacobs608" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </div>
